@@ -1,0 +1,46 @@
+{
+	//
+	//           ---LOOK---
+	//
+	"window.zoomLevel": -0.25,
+	"editor.smoothScrolling": true,
+	"workbench.list.smoothScrolling": true,
+	//
+	//           ---USEFUL---
+	//
+	"files.insertFinalNewline": true,
+	"editor.maxTokenizationLineLength": 1000,
+	"editor.quickSuggestionsDelay": 0,
+	"files.autoSave": "off",
+	"security.workspace.trust.untrustedFiles": "open",
+	//
+	//           ---THEME---
+	//
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.colorTheme": "XCode + Arduino",
+	//
+	//           ---CLANGD---
+	//
+	"clangd.path": "/home/infinitecoder/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/15.0.6/clangd_15.0.6/bin/clangd",
+	"editor.inlayHints.enabled": "off",
+	"clangd.arguments": [
+		"--background-index",
+		"--clang-tidy",
+		"--all-scopes-completion"
+	],
+	"clangd.checkUpdates": true,
+	"[cpp]": {
+		"editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
+	},
+	//
+	//           ---CLANG-TIDY---
+	//
+	"clang-tidy.checks": [
+		"bugprone",
+		"cppcoreguidelines",
+		"clang-analyzer",
+		"modernize",
+		"readability",
+		"misc"
+	]
+}
