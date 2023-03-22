@@ -1,5 +1,6 @@
 { // XCode Default Dark + Arduino Dark (Tokens)
 	"name": "XCode + Arduino",
+	"type": "dark",
 	"colors": {
 		"activityBar.background": "#2a2c2f",
 		"activityBar.border": "#000000",

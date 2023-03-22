@@ -16,8 +16,11 @@
 	//
 	//           ---THEME---
 	//
-	"workbench.iconTheme": "material-icon-theme",
+	"workbench.preferredLightColorTheme": "XCode + Arduino (Light)",
+	"workbench.preferredDarkColorTheme": "XCode + Arduino",
 	"workbench.colorTheme": "XCode + Arduino",
+	"workbench.iconTheme": "material-icon-theme",
+	"terminal.integrated.defaultProfile.linux": "zsh",
 	//
 	//           ---CLANGD---
 	//
