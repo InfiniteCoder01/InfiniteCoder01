@@ -1,10 +1,7 @@
 {
-	//
-	//           ---LOOK---
-	//
-	"window.zoomLevel": -0.25,
 	"editor.smoothScrolling": true,
 	"workbench.list.smoothScrolling": true,
+	"editor.mouseWheelScrollSensitivity": 1.3,
 	//
 	//           ---USEFUL---
 	//
@@ -24,12 +21,12 @@
 	//
 	//           ---CLANGD---
 	//
-	"clangd.path": "/home/infinitecoder/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/15.0.6/clangd_15.0.6/bin/clangd",
+	"clangd.path": "/usr/bin/clangd",
 	"editor.inlayHints.enabled": "off",
 	"clangd.arguments": [
 		"--background-index",
-		"--clang-tidy",
-		"--all-scopes-completion"
+		"--all-scopes-completion",
+		"-header-insertion=never"
 	],
 	"clangd.checkUpdates": true,
 	"[cpp]": {
@@ -39,11 +36,39 @@
 	//           ---CLANG-TIDY---
 	//
 	"clang-tidy.checks": [
-		"bugprone",
-		"cppcoreguidelines",
-		"clang-analyzer",
-		"modernize",
-		"readability",
-		"misc"
-	]
+		"-*",
+
+		"bugprone-*",
+		"-bugprone-easily-swappable-parameters",
+		"-bugprone-narrowing-conversions",
+		"-bugprone-implicit-widening-of-multiplication-result",
+
+		"misc-*",
+		"-misc-non-private-member-variables-in-classes",
+		"-misc-no-recursion",
+
+		"performance-*",
+		"-performance-unnecessary-value-param",
+
+		"portability-*",
+		"readability-*",
+		"-readability-braces-around-statements",
+		"-readability-identifier-length",
+		"-readability-identifier-naming",
+		"-readability-magic-numbers",
+		"-readability-uppercase-literal-suffix",
+		"-readability-implicit-bool-conversion",
+		"-readability-isolate-declaration",
+		"-readability-function-cognitive-complexity",
+		"-readability-simplify-boolean-expr",
+		"-readability-convert-member-functions-to-static",
+
+		"modernize-*",
+		"-modernize-avoid-bind",
+		"-modernize-deprecated-headers",
+		"-modernize-macro-to-enum",
+		"-modernize-use-nodiscard",
+		"-modernize-use-trailing-return-type"
+	],
+	"explorer.excludeGitIgnore": false
 }

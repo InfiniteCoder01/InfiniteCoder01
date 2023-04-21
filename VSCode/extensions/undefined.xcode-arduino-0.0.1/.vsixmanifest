@@ -2,7 +2,7 @@
 	<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
 		<Metadata>
 			<Identity Language="en-US" Id="xcode-arduino" Version="0.0.1" Publisher="undefined" />
-			<DisplayName>XCode+Arduino</DisplayName>
+			<DisplayName>XCode + Arduino</DisplayName>
 			<Description xml:space="preserve"></Description>
 			<Tags>theme,color-theme,__web_extension</Tags>
 			<Categories>Themes</Categories>

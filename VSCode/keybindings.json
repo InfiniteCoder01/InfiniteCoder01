@@ -9,5 +9,13 @@
         "key": "shift+alt+f",
         "command": "-editor.action.formatDocument",
         "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+    },
+    {
+        "key": "ctrl+h",
+        "command": "-extension.stackoverflow-search"
+    },
+    {
+        "key": "ctrl+shift+h",
+        "command": "-extension.stackoverflow-search-selection"
     }
 ]

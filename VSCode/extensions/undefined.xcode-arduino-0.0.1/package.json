@@ -1,6 +1,6 @@
 {
 	"name": "xcode-arduino",
-	"displayName": "XCode+Arduino",
+	"displayName": "XCode + Arduino",
 	"description": "",
 	"version": "0.0.1",
 	"engines": {
@@ -15,11 +15,16 @@
 				"label": "XCode + Arduino",
 				"uiTheme": "vs-dark",
 				"path": "./themes/XCode + Arduino-color-theme.json"
+			},
+			{
+				"label": "XCode + Arduino (Light)",
+				"uiTheme": "vs",
+				"path": "./themes/XCode + Arduino (Light)-color-theme.json"
 			}
 		]
 	},
 	"__metadata": {
 		"isApplicationScoped": false,
-		"installedTimestamp": 1679248312672
+		"installedTimestamp": 1679468855786
 	}
 }
