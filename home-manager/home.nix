@@ -19,6 +19,7 @@
     # CLI tools
     starship
     hello
+    sl
     git
     gh
     curl
@@ -37,11 +38,16 @@
     rust-analyzer
     wakatime # https://matthewrhone.dev/nixos-wakatime-vscode
 
+    # Libs
+    libsForQt5.kglobalaccel
+
     # Utilities
     wineWowPackages.waylandFull
     microsoft-edge-dev
     github-desktop
     gparted
+    konsole
+    yakuake
 
     # Social
     tdesktop
@@ -55,7 +61,15 @@
     inkscape
     aseprite-unfree
     gimp
+    reaper
+    dexed
   ];
+
+  programs.direnv = {
+    enable = true;
+    enableZshIntegration = true;
+    nix-direnv.enable = true;
+  };
 
   programs.firefox = {
     enable = true;
@@ -72,6 +86,19 @@
       ];
     };
   };
+
+  # systemd.user.services.yakuake = {
+  #   Unit = {
+  #     Description = "Yakuake - drop down terminal";
+  #     PartOf = "graphical-session.target";
+  #   };
+  #   Service = {
+  #     Type = "forking";
+  #     ExecStart = "bash -c yakuake &";
+  #     OOMPolicy = "kill";
+  #   };
+  #   Install.WantedBy = [ "org.gnome.Shell.target" ];
+  # };
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
   # plain files is through 'home.file'.

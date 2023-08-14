@@ -9,6 +9,11 @@
     defaultKeymap = "emacs";
     history.ignoreAllDups = true;
     shellAliases = {
+      newshell = ''
+        wget https://gist.githubusercontent.com/InfiniteCoder01/2ff515dd1656e451ea5fb7126bac2f21/raw/bb5e006af06278e2c7a4cff0eac0021a57a9dcf2/shell.nix -q
+        echo "use nix" >> .envrc
+        direnv allow
+      '';
       shell = "nix-shell --run zsh";
     };
     initExtra = ''
@@ -23,8 +28,10 @@
       bindkey "^[[3;5~" forward-kill-word
       bindkey "^[[3;5~" kill-word
 
-      # Starship
+      # Shell Integrations
       eval "$(starship init zsh)"
+      eval "$(direnv hook zsh)"
+      export DIRENV_LOG_FORMAT=
     '';
   };
 
@@ -33,10 +40,10 @@
     plugins = with pkgs; [ rofi-emoji rofi-calc ];
     theme = "custom.rasi";
     extraConfig = {
-      modes = "window,drun,emoji,calc";
+      modes = "run,drun,emoji,calc";
       show-icons = true;
       kb-remove-word-forward = "Control+Alt+d,Control+Delete";
-      matching = "fuzzy";
+      matching = "glob";
     };
   };
   home.file = {
@@ -47,41 +54,23 @@
   home.packages = [ pkgs.gnome.gnome-tweaks ];
   dconf.settings = {
     "org/gnome/shell" = {
-      # enabled-extensions = [
-      # "native-window-placement@gnome-shell-extensions.gcampax.github.com"
-      # "pop-shell@system76.com"
-      # "caffeine@patapon.info"
-      # "hidetopbar@mathieu.bidon.ca"
-      # "gsconnect@andyholmes.github.io"
-      # ];
+      enabled-extensions = [
+        "yakuake-extension@kde.org"
+      ];
     };
-    # "org/gnome/shell/extensions/hidetopbar" = {
-    #   enable-active-window = false;
-    #   enable-intellihide = false; 
-    # };
-    # "org/gnome/desktop/interface" = {
-    #   clock-show-seconds = true;
-    #   clock-show-weekday = true;
-    #   color-scheme = "prefer-dark";
-    #   enable-hot-corners = false;
-    #   font-antialiasing = "grayscale";
-    #   font-hinting = "slight";
-    #   gtk-theme = "Nordic";
-    #   toolkit-accessibility = true;
-    # };
-    # "org/gnome/desktop/wm/preferences" = {
-    #   button-layout = "close,minimize,maximize:appmenu";
-    #   num-workspaces = 10;
-    # };
-    # "org/gnome/shell/extensions/pop-shell" = {
-    #   focus-right = "disabled";
-    #   tile-by-default = true;
-    #   tile-enter = "disabled";
-    # };
-    # "org/gnome/desktop/peripherals/touchpad" = {
-    #   tap-to-click = true;
-    #   two-finger-scrolling-enabled = true;
-    # };
+    "org/gnome/desktop/interface" = {
+      clock-show-weekday = true;
+      color-scheme = "prefer-dark";
+      enable-hot-corners = false;
+      font-antialiasing = "grayscale";
+      font-hinting = "slight";
+      gtk-theme = "Nordic";
+      toolkit-accessibility = true;
+    };
+    "org/gnome/desktop/peripherals/touchpad" = {
+      tap-to-click = true;
+      two-finger-scrolling-enabled = true;
+    };
     "org/gnome/settings-daemon/plugins/media-keys".custom-keybindings = [
       "/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/"
       "/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/"

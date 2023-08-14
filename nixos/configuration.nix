@@ -10,12 +10,12 @@
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
   # Bootloader
-  # boot.loader.systemd-boot.enable = true;
+  boot.loader.systemd-boot.enable = false;
   boot.loader.efi.canTouchEfiVariables = true;
   boot.loader.efi.efiSysMountPoint = "/boot/efi";
   boot.loader.grub = {
     enable = true;
-    devices = ["nodev"];
+    device = "nodev";
     efiSupport = true;
     useOSProber = true;
     configurationLimit = 5;
@@ -29,6 +29,9 @@
   # Set your time zone.
   time.timeZone = "Europe/Minsk";
   i18n.defaultLocale = "en_US.UTF-8";
+  i18n.extraLocaleSettings = {
+    LC_TIME = "en_GB.UTF-8";
+  };
 
   # Enable the X11 windowing system.
   services.xserver.enable = true;
@@ -41,8 +44,8 @@
   # Configure keymap in X11
   services.xserver = {
     layout = "us,ru";
-    xkbVariant = "";
-    xkbOptions = "grp:alt_shift_toggle";
+    xkbVariant = "winkeys";
+    xkbOptions = "grp:win_space_toggle";
   };
 
   # Enable CUPS to print documents.
@@ -70,6 +73,10 @@
     packages = with pkgs; [ home-manager ];
   };
 
+  programs.zsh.enable = true;
+  users.defaultUserShell = pkgs.zsh;
+  environment.shells = with pkgs; [ zsh ];
+  
   # Enable automatic login for the user.
   services.xserver.displayManager.autoLogin.enable = true;
   services.xserver.displayManager.autoLogin.user = "infinitecoder";
@@ -93,12 +100,12 @@
     driSupport32Bit = true;
   };
 
-#  hardware.nvidia = {
-#    modesetting.enable = true;
-#    open = false;
-#    nvidiaSettings = true;
-#    package = config.boot.kernelPackages.nvidiaPackages.stable;
-#  };
+  hardware.nvidia = {
+    modesetting.enable = true;
+    open = false;
+    nvidiaSettings = true;
+    package = config.boot.kernelPackages.nvidiaPackages.stable;
+  };
 
   # This value determines the NixOS release from which the default
   # settings for stateful data, like file locations and database versions
