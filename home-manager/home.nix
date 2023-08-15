@@ -35,11 +35,12 @@
     # DevTools
     nixpkgs-fmt
     rnix-lsp
-    rust-analyzer
+    rustup
     wakatime # https://matthewrhone.dev/nixos-wakatime-vscode
 
     # Libs
     libsForQt5.kglobalaccel
+    xclip
 
     # Utilities
     wineWowPackages.waylandFull
@@ -80,39 +81,16 @@
       };
     };
     profiles.default = {
-      bookmarks = [
-        { name = "NixOS Registery"; url = "https://search.nixos.org/packages"; }
-        { name = "Home Manager options"; url = "https://rycee.gitlab.io/home-manager/options.html"; }
-      ];
+      name = "Default";
+      bookmarks = [{
+        name = "Toolbar";
+        toolbar = true;
+        bookmarks = [
+          { name = "NixOS Registery"; url = "https://search.nixos.org/packages"; }
+          { name = "Home Manager options"; url = "https://rycee.gitlab.io/home-manager/options.html"; }
+        ];
+      }];
     };
-  };
-
-  # systemd.user.services.yakuake = {
-  #   Unit = {
-  #     Description = "Yakuake - drop down terminal";
-  #     PartOf = "graphical-session.target";
-  #   };
-  #   Service = {
-  #     Type = "forking";
-  #     ExecStart = "bash -c yakuake &";
-  #     OOMPolicy = "kill";
-  #   };
-  #   Install.WantedBy = [ "org.gnome.Shell.target" ];
-  # };
-
-  # Home Manager is pretty good at managing dotfiles. The primary way to manage
-  # plain files is through 'home.file'.
-  home.file = {
-    # # Building this configuration will create a copy of 'dotfiles/screenrc' in
-    # # the Nix store. Activating the configuration will then make '~/.screenrc' a
-    # # symlink to the Nix store copy.
-    # ".screenrc".source = dotfiles/screenrc;
-
-    # # You can also set the file content immediately.
-    # ".gradle/gradle.properties".text = ''
-    #   org.gradle.console=verbose
-    #   org.gradle.daemon.idletimeout=3600000
-    # '';
   };
 
   home.sessionVariables = {

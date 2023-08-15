@@ -10,9 +10,10 @@
     history.ignoreAllDups = true;
     shellAliases = {
       newshell = ''
-        wget https://gist.githubusercontent.com/InfiniteCoder01/2ff515dd1656e451ea5fb7126bac2f21/raw/bb5e006af06278e2c7a4cff0eac0021a57a9dcf2/shell.nix -q
-        echo "use nix" >> .envrc
-        direnv allow
+        new_shell_from https://gist.githubusercontent.com/InfiniteCoder01/2ff515dd1656e451ea5fb7126bac2f21/raw/bb5e006af06278e2c7a4cff0eac0021a57a9dcf2/shell.nix
+      '';
+      newshell_raylib = ''
+        new_shell_from https://gist.githubusercontent.com/InfiniteCoder01/ac47b17f31fab65005ff4abbbbaf870e/raw/10030cf9a2d4417aa95d8cab5ecdb2ac1520dad2/shell.nix
       '';
       shell = "nix-shell --run zsh";
     };
@@ -32,6 +33,13 @@
       eval "$(starship init zsh)"
       eval "$(direnv hook zsh)"
       export DIRENV_LOG_FORMAT=
+
+      # New Shell
+      new_shell_from () {
+        wget $@ -O shell.nix -q
+        echo "use nix" >> .envrc
+        direnv allow
+      }
     '';
   };
 
@@ -40,7 +48,7 @@
     plugins = with pkgs; [ rofi-emoji rofi-calc ];
     theme = "custom.rasi";
     extraConfig = {
-      modes = "run,drun,emoji,calc";
+      modes = "emoji,calc,drun";
       show-icons = true;
       kb-remove-word-forward = "Control+Alt+d,Control+Delete";
       matching = "glob";
@@ -77,7 +85,7 @@
     ];
     "org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0" = {
       name = "Rofi DRun";
-      command = "rofi -normal-window -show drun";
+      command = "rofi -normal-window -show drun -calc-command \"echo '{result}' | xclip -selection clipboard\"";
       binding = "<Super>r";
     };
     "org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1" = {
