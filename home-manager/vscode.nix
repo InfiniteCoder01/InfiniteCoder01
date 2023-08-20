@@ -8,6 +8,7 @@
     enableExtensionUpdateCheck = true;
     extensions = with pkgs.vscode-extensions; [
       # Langs
+      # mkhl.direnv
       jnoortheen.nix-ide
       a5huynh.vscode-ron
       llvm-vs-code-extensions.vscode-clangd
