@@ -65,6 +65,7 @@
     aseprite-unfree
     gimp
     vlc
+    audacity
     reaper
     dexed
 
