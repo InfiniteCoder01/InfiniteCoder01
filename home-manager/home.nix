@@ -60,11 +60,13 @@
     # Media
     super-slicer-latest
     cura
-    obs-studio
+    gimp
     inkscape
     aseprite-unfree
-    gimp
+    obs-studio
     vlc
+
+    pavucontrol
     audacity
     reaper
     dexed
