@@ -115,6 +115,7 @@
       files.associations = {
         "*.ldtk" = "json";
       };
+      direnv.restart.automatic = true;
     };
     keybindings = [
       {
