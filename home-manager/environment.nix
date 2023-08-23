@@ -34,6 +34,9 @@
       eval "$(direnv hook zsh)"
       export DIRENV_LOG_FORMAT=
 
+      path=('/home/infinitecoder/.cargo/bin' $path)
+      export PATH
+
       # New Shell
       new_shell_from () {
         wget $@ -O shell.nix -q
