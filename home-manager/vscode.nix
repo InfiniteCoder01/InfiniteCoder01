@@ -114,7 +114,7 @@
       git.confirmSync = false;
       files.associations = {
         "*.ldtk" = "json";
-        "*.gc" = "lua";
+        "*.gc" = "go";
       };
       direnv.restart.automatic = true;
     };
