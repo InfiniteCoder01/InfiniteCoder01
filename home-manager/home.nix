@@ -64,6 +64,7 @@
     inkscape
     aseprite-unfree
     obs-studio
+    libsForQt5.kdenlive
     vlc
 
     pavucontrol
