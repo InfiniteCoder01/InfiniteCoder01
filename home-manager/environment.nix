@@ -63,7 +63,10 @@
   };
 
   # Gnome
-  home.packages = [ pkgs.gnome.gnome-tweaks ];
+  home.packages = with pkgs; [
+    gnome.gnome-tweaks
+    gnomeExtensions.pop-shell
+  ];
   dconf.settings = {
     "org/gnome/shell" = {
       enabled-extensions = [
