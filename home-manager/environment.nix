@@ -47,30 +47,23 @@
     '';
   };
 
-  programs.rofi = {
-    enable = true;
-    plugins = with pkgs; [ rofi-emoji rofi-calc ];
-    theme = "custom.rasi";
-    extraConfig = {
-      modes = "emoji,calc,drun,run";
-      show-icons = true;
-      kb-remove-word-forward = "Control+Alt+d,Control+Delete";
-      matching = "glob";
-    };
-  };
-  home.file = {
-    ".config/rofi/themes/custom.rasi".source = ./theme.rasi;
-  };
-
   # Gnome
   home.packages = with pkgs; [
     gnome.gnome-tweaks
+    gnomeExtensions.vitals
     gnomeExtensions.pop-shell
+    pop-launcher
+    emote
   ];
   dconf.settings = {
     "org/gnome/shell" = {
       enabled-extensions = [
         "yakuake-extension@kde.org"
+        "Vitals@CoreCoding.com"
+        "pop-shell@system76.com"
+        "launch-new-instance@gnome-shell-extensions.gcampax.github.com"
+        "places-menu@gnome-shell-extensions.gcampax.github.com"
+        "user-theme@gnome-shell-extensions.gcampax.github.com"
       ];
     };
     "org/gnome/desktop/interface" = {
