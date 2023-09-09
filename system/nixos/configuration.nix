@@ -7,7 +7,13 @@
     ];
 
   # Enable flakes
-  nix.settings.experimental-features = [ "nix-command" "flakes" ];
+  # nix.settings.experimental-features = [ "nix-command" "flakes" ];
+  nix = {
+    package = pkgs.nixFlakes;
+    extraOptions = ''
+      experimental-features = nix-command flakes
+    '';
+  };
 
   # Bootloader
   boot.loader.systemd-boot.enable = false;
@@ -23,7 +29,7 @@
   boot.kernelPackages = pkgs.linuxPackages_latest;
   boot.supportedFilesystems = [ "ntfs" ];
 
-  networking.hostName = "nixos"; # Define your hostname.
+  networking.hostName = "infinitecoder"; # Define your hostname.
   networking.networkmanager.enable = true;
 
   # Set your time zone.
@@ -38,8 +44,18 @@
   services.xserver.videoDrivers = ["nvidia"];
 
   # Enable the GNOME Desktop Environment.
-  services.xserver.displayManager.gdm.enable = true;
-  services.xserver.desktopManager.gnome.enable = true;
+  # services.xserver.displayManager.gdm.enable = true;
+  # services.xserver.displayManager.gdm.wayland = true;
+  # services.xserver.desktopManager.gnome.enable = true;
+
+  # Enable SDDM with Hyprland
+  services.xserver.displayManager.sddm.enable = true;
+  environment.sessionVariables = {
+    # If your cursor becomes invisible
+    WLR_NO_HARDWARE_CURSORS = "1";
+    # Hint electron apps to use wayland
+    NIXOS_OZONE_WL = "1";
+  };
 
   # Configure keymap in X11
   services.xserver = {

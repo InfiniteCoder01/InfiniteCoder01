@@ -1,20 +1,6 @@
 { config, pkgs, ... }:
 
 {
-  imports = [
-    ./vscode.nix
-    ./environment.nix
-  ];
-
-  home.username = "infinitecoder";
-  home.homeDirectory = "/home/infinitecoder";
-  nixpkgs.config.allowUnfree = true;
-  nixpkgs.config.allowUnfreePredicate = (_: true);
-  nixpkgs.config.permittedInsecurePackages = [
-    "openssl-1.1.1v"
-    "python-2.7.18.6"
-  ];
-
   home.packages = with pkgs; [
     # CLI tools
     starship
@@ -27,7 +13,6 @@
     zip
     unzip
     neofetch
-    exa
     bat
     ripgrep
     fd
@@ -35,6 +20,8 @@
     # DevTools
     nixpkgs-fmt
     rnix-lsp
+
+    python
     wakatime # https://matthewrhone.dev/nixos-wakatime-vscode
 
     # Libs
@@ -97,6 +84,14 @@
     nix-direnv.enable = true;
   };
 
+  programs.eza = {
+    enable = true;
+    enableAliases = true;
+    icons = true;
+    extraOptions = [ "--group-directories-first" "--header" ];
+    git = true;
+  };
+
   programs.firefox = {
     enable = true;
     package = pkgs.firefox.override {
@@ -119,18 +114,4 @@
     };
   };
 
-  home.sessionVariables = {
-    # EDITOR = "emacs";
-  };
-
-  programs.home-manager.enable = true;
-
-  # This value determines the Home Manager release that your configuration is
-  # compatible with. This helps avoid breakage when a new Home Manager release
-  # introduces backwards incompatible changes.
-  #
-  # You should not change this value, even if you update Home Manager. If you do
-  # want to update the value, then make sure to first check the Home Manager
-  # release notes.
-  home.stateVersion = "22.11"; # Please read the comment before changing.
 }
