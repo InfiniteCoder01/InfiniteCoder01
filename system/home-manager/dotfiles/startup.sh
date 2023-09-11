@@ -14,6 +14,7 @@ waybar &
 swaync &
 eww daemon
 wl-clip-persist --clipboard both &
+gnome-keyring-daemon -f -r &
 
 sleep 1
 pkill xdg-desktop-portal-hyprland
