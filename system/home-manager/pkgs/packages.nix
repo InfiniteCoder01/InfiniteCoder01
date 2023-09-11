@@ -27,10 +27,12 @@
     # Libs
     libsForQt5.kglobalaccel
     wineWowPackages.waylandFull
+    gnome.gnome-keyring
     bottles
     xclip
 
     # Utilities
+    pass-wayland
     microsoft-edge-dev
     github-desktop
     gparted

@@ -41,7 +41,7 @@
 
   # Enable the X11 windowing system.
   services.xserver.enable = true;
-  services.xserver.videoDrivers = ["nvidia"];
+  services.xserver.videoDrivers = [ "nvidia" ];
 
   # Enable the GNOME Desktop Environment.
   # services.xserver.displayManager.gdm.enable = true;
@@ -122,6 +122,8 @@
     nvidiaSettings = true;
     package = config.boot.kernelPackages.nvidiaPackages.stable;
   };
+
+  services.dbus.packages = [ pkgs.gnome3.gnome-keyring pkgs.gcr ];
 
   # This value determines the NixOS release from which the default
   # settings for stateful data, like file locations and database versions

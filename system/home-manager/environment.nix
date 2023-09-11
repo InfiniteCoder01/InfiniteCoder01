@@ -55,10 +55,10 @@
     extraConfig = (builtins.readFile ./dotfiles/hyprland.conf);
   };
 
-  services.mako = {
-    enable = true;
-    extraConfig = (builtins.readFile ./dotfiles/mako.conf);
-  };
+  # services.mako = {
+  #   enable = true;
+  #   extraConfig = (builtins.readFile ./dotfiles/mako.conf);
+  # };
 
   programs.waybar = {
     enable = true;
@@ -67,39 +67,54 @@
     }));
   };
 
-  programs.rofi = {
-    enable = true;
-    plugins = with pkgs; [ rofi-emoji rofi-calc ];
-    theme = "theme.rasi";
-    extraConfig = {
-      modes = "emoji,calc,drun,run";
-      show-icons = true;
-      kb-remove-word-forward = "Control+Alt+d,Control+Delete";
-      matching = "glob";
-    };
-  };
+  programs.wofi.enable = true;
   home.file = {
     ".config/waybar/" = {
       source = ./dotfiles/waybar;
       recursive = true;
     };
-    ".config/rofi/themes/theme.rasi".source = ./dotfiles/theme.rasi;
+    ".config/wofi/" = {
+      source = ./dotfiles/wofi;
+      recursive = true;
+    };
+    ".config/swaync/" = {
+      source = ./dotfiles/swaync;
+      recursive = true;
+    };
+    ".config/eww/" = {
+      source = ./dotfiles/eww;
+      recursive = true;
+    };
   };
 
+  fonts.fontconfig.enable = true;
   home.packages = with pkgs; [
     alacritty
     gnome.nautilus
+    gnome.file-roller
+    gnome.seahorse
 
     swappy
     grim
     slurp
-    pamixer
+
+    swaynotificationcenter
+    libnotify
     brightnessctl
-    bluez
-    lxappearance
+    light
+    eww-wayland
+    # ^ New V Old
+    # pamixer
+    # brightnessctl
+    # bluez
+    # pipewire
+    # wireplumber
+
+    networkmanagerapplet
+    xdg-desktop-portal-wlr
+    wl-clip-persist
 
     # Fonts
     (nerdfonts.override { fonts = [ "JetBrainsMono" ]; })
-    noto-fonts-emoji
   ];
 }
