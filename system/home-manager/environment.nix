@@ -89,6 +89,8 @@
 
   fonts.fontconfig.enable = true;
   home.packages = with pkgs; [
+    # wofi-emoji
+    onagre
     alacritty
     gnome.nautilus
     gnome.file-roller
