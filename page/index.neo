@@ -5,6 +5,9 @@ I am Dima and I love coding!
 -- title: By the way...
 This website is written in <<link|Neopolitan|https://alanwsmith.com/neopolitan>> and generated with <<link|OreNeo|https://infinitecoder01.github.io/OreNeo/>>.
 
+-- p
+I am writing a compiler backend >here>/blog/writing-a-compiler-backend>
+
 -- list
 -- title: My socials
 - >GitHub>https://github.com/InfiniteCoder01/>
