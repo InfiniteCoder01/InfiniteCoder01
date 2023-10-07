@@ -55,11 +55,6 @@
     extraConfig = (builtins.readFile ./dotfiles/hyprland.conf);
   };
 
-  # services.mako = {
-  #   enable = true;
-  #   extraConfig = (builtins.readFile ./dotfiles/mako.conf);
-  # };
-
   programs.waybar = {
     enable = true;
     package = (pkgs.waybar.overrideAttrs (oldAttrs: {
@@ -87,12 +82,41 @@
     };
   };
 
+  home.pointerCursor =
+    let
+      getFrom = url: hash: name: {
+        gtk.enable = true;
+        x11.enable = true;
+        name = name;
+        size = 48;
+        package =
+          pkgs.runCommand "moveUp" { } ''
+            mkdir -p $out/share/icons
+            ln -s ${builtins.fetchTarball {
+              url = url;
+              sha256 = hash;
+            }} $out/share/icons/${name}
+          '';
+      };
+    in
+    getFrom
+      "https://github.com/ful1e5/Bibata_Cursor/releases/download/v2.0.4/Bibata-Modern-Classic.tar.xz"
+      "sha256-YEH6nA8A6KWuGQ6MPBCIEc4iTyllKwp/OLubD3m06Js="
+      "Bibata-Modern-Classic";
+
   fonts.fontconfig.enable = true;
+  qt = {
+    enable = true;
+    platformTheme = "gtk";
+  };
   home.packages = with pkgs; [
     # wofi-emoji
+    libsForQt5.dolphin
+    libsForQt5.kdegraphics-thumbnailers
+    libsForQt5.breeze-icons
+
     onagre
     alacritty
-    gnome.nautilus
     gnome.file-roller
     gnome.seahorse
 
@@ -105,12 +129,7 @@
     brightnessctl
     light
     eww-wayland
-    # ^ New V Old
-    # pamixer
-    # brightnessctl
-    # bluez
-    # pipewire
-    # wireplumber
+    pamixer
 
     networkmanagerapplet
     xdg-desktop-portal-wlr

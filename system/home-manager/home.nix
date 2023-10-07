@@ -18,7 +18,7 @@ in {
       allowUnfree = true;
       allowUnfreePredicate = (_: true);
       permittedInsecurePackages = [
-        "openssl-1.1.1v"
+        "openssl-1.1.1w"
         "python-2.7.18.6"
       ];
     };

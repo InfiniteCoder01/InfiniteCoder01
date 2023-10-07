@@ -117,6 +117,8 @@
         "*.gc" = "go";
       };
       direnv.restart.automatic = true;
+      explorer.confirmDragAndDrop = false;
+      powermode.enabled = true;
     };
     keybindings = [
       {

@@ -1,4 +1,4 @@
-{ config, pkgs, ... }:
+{ inputs, config, pkgs, ... }:
 
 {
   home.packages = with pkgs; [
@@ -21,10 +21,12 @@
     nixpkgs-fmt
     rnix-lsp
 
-    python
+    # python
     wakatime # https://matthewrhone.dev/nixos-wakatime-vscode
 
     # Libs
+    qt6.qtwayland
+    libsForQt5.qt5.qtwayland
     libsForQt5.kglobalaccel
     wineWowPackages.waylandFull
     gnome.gnome-keyring
@@ -32,8 +34,11 @@
     xclip
 
     # Utilities
+    rpi-imager
+    gnome.gnome-disk-utility
     pass-wayland
     microsoft-edge-dev
+    qbittorrent
     github-desktop
     gparted
     ghidra
@@ -47,8 +52,6 @@
     steam
 
     # Media
-    super-slicer-latest
-    cura
     gimp
     inkscape
     aseprite-unfree
@@ -61,14 +64,19 @@
     reaper
     dexed
 
-    (appimageTools.wrapType2 {
-      name = "freecad";
-      src = fetchurl {
-        url = "https://github.com/realthunder/FreeCAD/releases/download/Tip/FreeCAD-Link-Tip-Linux-x86_64-py3.11-20230811.AppImage";
-        hash = "sha256-jOCO9N/njGSajC1UK2aMcwy4uxaMBndNE13RhOx0hB8=";
-      };
-      extraPkgs = pkgs: with pkgs; [ pciutils ];
-    })
+    blender
+    freecad
+
+    inputs.orca-slicer.packages.x86_64-linux.orca-slicer
+    cura
+    # (appimageTools.wrapType2 {
+    #   name = "freecad";
+    #   src = fetchurl {
+    #     url = "https://github.com/realthunder/FreeCAD/releases/download/Tip/FreeCAD-Link-Tip-Linux-x86_64-py3.11-20230811.AppImage";
+    #     hash = "sha256-jOCO9N/njGSajC1UK2aMcwy4uxaMBndNE13RhOx0hB8=";
+    #   };
+    #   extraPkgs = pkgs: with pkgs; [ pciutils ];
+    # })
 
     (appimageTools.wrapType2 {
       name = "arduino";
@@ -111,6 +119,8 @@
           { name = "NixOS Registery"; url = "https://search.nixos.org/packages"; }
           { name = "Home Manager options"; url = "https://rycee.gitlab.io/home-manager/options.html"; }
           { name = "Crates.io"; url = "https://crates.io"; }
+          { name = "Watch later - YouTube"; url = "https://www.youtube.com/playlist?list=WL"; }
+          { name = "Chiptone"; url = "https://sfbgames.itch.io/chiptone"; }
         ];
       }];
     };

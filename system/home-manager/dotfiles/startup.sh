@@ -8,6 +8,8 @@ pkill wl-clip-persist
 
 sleep 0.1
 
+hyprctl setcursor Bibata-Modern-Classic 25
+
 yakuake &
 nm-applet --indicator &
 waybar &
