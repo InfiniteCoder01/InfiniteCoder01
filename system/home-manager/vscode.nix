@@ -119,6 +119,12 @@
       direnv.restart.automatic = true;
       explorer.confirmDragAndDrop = false;
       powermode.enabled = true;
+      powermode.combo.location = "off";
+      powermode.combo.counterEnabled = "hide";
+      powermode.combo.timeout = 1;
+      powermode.explosions.frequency = 1;
+      powermode.explosions.maxExplosions = 5;
+      powermode.shake.enabled = false;
     };
     keybindings = [
       {
