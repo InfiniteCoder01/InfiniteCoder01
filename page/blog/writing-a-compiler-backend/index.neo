@@ -4,6 +4,7 @@ Writing a compiler backend for my programming language in 🦀
 -- warning
 -- title: Heads up!
 Work in progress
+I sometimes stream the development >here>https://twitch.tv/infinitecoder01>
 
 -- note
 -- title: Note
@@ -12,7 +13,7 @@ You can see the development >here>https://github.com/InfiniteCoder01/orecc-back>
 
 -- warning
 -- title: TODO
-TODO: Table of contents
+Table of contents
 
 -- p
 This all started when I decided to make my own language. Again.
