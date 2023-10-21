@@ -25,18 +25,18 @@ I've tried many approaches, but settled on tokenizing text → parsing it into a
 building an Intermediate Representation (IR) from this AST → converting this IR into
 raw bytes → packaging those bytes into an application like ELF or PE.
 
-The first problem I encountered with the backend itself is compiling to x86_64.
+The first problem I encountered with the backend itself is compiling to x86\_64.
 That's the first architecture I've tried to implement and already got stuck.
-Turns out that x86_64 instruction set is really difficult (THIS IS ALL ABOUT
+Turns out that x86\_64 instruction set is really difficult (THIS IS ALL ABOUT
 BACKWARDS COMPATIBILITY!!!). It has some weird things like REX (register extensions)
-or some shortucts (Why `add AL, 5`` is taking 2 bytes (encoded as `04 05 ``) when
+or some shortucts (Why `add AL, 5`` is taking 2 bytes (encoded as `04 05``) when
 `add BL, 5`` takes 3 bytes (encoded as `80 c3 05``))
 
-I've found this great page as reference for x86_64 opcodes: >X86-64 Instruction Encoding>https://www-user.tu-chemnitz.de/~heha/hsn/chm/x86.chm/x64.htm>
+I've found this great page as reference for x86\_64 opcodes: >X86-64 Instruction Encoding>https://www-user.tu-chemnitz.de/~heha/hsn/chm/x86.chm/x64.htm>
 (>OSDev Wiki>https://wiki.osdev.org/X86-64_Instruction_Encoding> contains the same page)
 >This>https://shell-storm.org/x86doc/> table also helped me a lot.
 
-When I did some first steps with x86_64, I had to pack it into some sort of executable,
+When I did some first steps with x86\_64, I had to pack it into some sort of executable,
 which turned out a big challange. I couldn't find any rust crates that will write
 elf executables, only ones that write relocatibles and I want to integrate a linker into
 my backend. >This>https://www.youtube.com/watch?v=nC1U1LJQL8o&list=WL&index=6> video helped me
