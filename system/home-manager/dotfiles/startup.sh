@@ -25,3 +25,6 @@ pkill xdg-desktop-portal
 xdg-desktop-portal-hyprland &
 sleep 2
 xdg-desktop-portal &
+
+cd /mnt/Dev/Rust/Tools/chatry/chatry
+nix-shell --run "cargo run --release" &

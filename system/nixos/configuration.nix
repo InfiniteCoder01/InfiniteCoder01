@@ -57,6 +57,11 @@
     NIXOS_OZONE_WL = "1";
   };
 
+  # Virtualization
+  virtualisation.libvirtd.enable = true;
+  virtualisation.spiceUSBRedirection.enable = true;
+  programs.dconf.enable = true; # virt-manager requires dconf to remember settings
+
   # Configure keymap in X11
   services.xserver = {
     layout = "us,ru";
@@ -88,7 +93,7 @@
   users.users.infinitecoder = {
     isNormalUser = true;
     description = "InfiniteCoder";
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = [ "networkmanager" "wheel" "libvirtd" ];
     packages = with pkgs; [ home-manager ];
   };
 
@@ -111,6 +116,7 @@
     helix
     wget
     bat
+    virt-manager
   ];
 
   hardware.opengl = {

@@ -15,7 +15,7 @@
         new_shell_from https://gist.githubusercontent.com/InfiniteCoder01/ac47b17f31fab65005ff4abbbbaf870e/raw/1e0292c68ae01bdd1d1c4a9f404d347d7f73d013/shell.nix
       '';
       shell = "nix-shell --run zsh";
-      flake-rebuild = "nixos-rebuild --flake ~/system#infinitecoder";
+      flake-rebuild = "sudo nixos-rebuild --flake ~/system#infinitecoder";
       flake-manager = "home-manager --flake ~/system#infinitecoder@infinitecoder";
     };
     initExtra = ''
@@ -104,16 +104,24 @@
       "sha256-YEH6nA8A6KWuGQ6MPBCIEc4iTyllKwp/OLubD3m06Js="
       "Bibata-Modern-Classic";
 
+  dconf.settings = {
+    "org/virt-manager/virt-manager/connections" = {
+      autoconnect = [ "qemu:///system" ];
+      uris = [ "qemu:///system" ];
+    };
+  };
+
   fonts.fontconfig.enable = true;
   qt = {
     enable = true;
-    platformTheme = "gtk";
+    platformTheme = "qtct";
   };
   home.packages = with pkgs; [
     # wofi-emoji
     libsForQt5.dolphin
     libsForQt5.kdegraphics-thumbnailers
     libsForQt5.breeze-icons
+    libsForQt5.qt5ct
 
     onagre
     alacritty

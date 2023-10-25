@@ -4,15 +4,18 @@
   home.packages = with pkgs; [
     # CLI tools
     starship
+    termius
     hello
     sl
     git
     gh
     curl
     whois
+    file
     zip
     unzip
     neofetch
+    usbutils
     bat
     ripgrep
     fd
@@ -51,12 +54,19 @@
     discord
     steam
 
+    # Virtualization
+    virt-manager
+    qemu
+
     # Media
     gimp
+    krita
+    pinta
     inkscape
     aseprite-unfree
-    obs-studio
+    libreoffice-qt
     libsForQt5.kdenlive
+    obs-studio
     vlc
 
     pavucontrol
@@ -78,6 +88,7 @@
     #   extraPkgs = pkgs: with pkgs; [ pciutils ];
     # })
 
+    # arduino
     (appimageTools.wrapType2 {
       name = "arduino";
       src = fetchurl {
@@ -126,4 +137,8 @@
     };
   };
 
+  programs.java = { enable = true; };
+  home.sessionVariables = {
+    _JAVA_OPTIONS = "-Dawt.useSystemAAFontSettings=lcd";
+  };
 }
