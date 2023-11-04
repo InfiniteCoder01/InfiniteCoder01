@@ -8,11 +8,11 @@
     defaultKeymap = "emacs";
     history.ignoreAllDups = true;
     shellAliases = {
-      newshell = ''
-        new_shell_from https://gist.githubusercontent.com/InfiniteCoder01/2ff515dd1656e451ea5fb7126bac2f21/raw/ee67d5fe0ee768e86aab245f92efe2cc88de8720/shell.nix
-      '';
-      newshell_raylib = ''
-        new_shell_from https://gist.githubusercontent.com/InfiniteCoder01/ac47b17f31fab65005ff4abbbbaf870e/raw/1e0292c68ae01bdd1d1c4a9f404d347d7f73d013/shell.nix
+      newflake = ''
+        wget https://gist.githubusercontent.com/InfiniteCoder01/e3b8f14405114a7cff1618d807612545/raw/2bd7baaeb9d0d9226aadcd555375acf3370c6073/flake.nix -O flake.nix -q
+        echo "use flake" >> .envrc
+        echo ".direnv" >> .gitignore
+        direnv allow
       '';
       shell = "nix-shell --run zsh";
       flake-rebuild = "sudo nixos-rebuild --flake ~/system#infinitecoder";
@@ -37,14 +37,6 @@
 
       path=('/home/infinitecoder/.cargo/bin' $path)
       export PATH
-
-      # New Shell
-      new_shell_from () {
-        wget $@ -O shell.nix -q
-        echo "use nix" >> .envrc
-        echo ".direnv" >> .gitignore
-        direnv allow
-      }
     '';
   };
 

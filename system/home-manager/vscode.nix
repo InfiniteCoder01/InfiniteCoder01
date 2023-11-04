@@ -75,6 +75,12 @@
       rust-analyzer.assist.emitMustUse = true;
       rust-analyzer.assist.expressionFillDefault = "default";
       #
+      #           ---PYTHON---
+      #
+      "[python]" = {
+        editor.defaultFormatter = "ms-python.autopep8";
+      };
+      #
       #           ---MISC---
       #
       explorer.excludeGitIgnore = true;

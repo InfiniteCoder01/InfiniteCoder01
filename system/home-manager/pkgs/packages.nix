@@ -19,12 +19,13 @@
     bat
     ripgrep
     fd
+    btop
 
     # DevTools
+    gcc
+    rustup
     nixpkgs-fmt
     rnix-lsp
-
-    # python
     wakatime # https://matthewrhone.dev/nixos-wakatime-vscode
 
     # Libs
@@ -32,11 +33,13 @@
     libsForQt5.qt5.qtwayland
     libsForQt5.kglobalaccel
     wineWowPackages.waylandFull
+    winetricks
     gnome.gnome-keyring
     bottles
     xclip
 
     # Utilities
+    filezilla
     rpi-imager
     gnome.gnome-disk-utility
     pass-wayland
@@ -137,7 +140,9 @@
     };
   };
 
-  programs.java = { enable = true; };
+  programs.java = {
+    enable = true;
+  };
   home.sessionVariables = {
     _JAVA_OPTIONS = "-Dawt.useSystemAAFontSettings=lcd";
   };
