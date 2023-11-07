@@ -39,17 +39,18 @@
     xclip
 
     # Utilities
+    realvnc-vnc-viewer
     filezilla
+
     rpi-imager
     gnome.gnome-disk-utility
+    gparted
+
     pass-wayland
+
     microsoft-edge-dev
     qbittorrent
     github-desktop
-    gparted
-    ghidra
-    konsole
-    yakuake
 
     # Social
     tdesktop

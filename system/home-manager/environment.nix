@@ -72,6 +72,9 @@
       source = ./dotfiles/eww;
       recursive = true;
     };
+    ".mozilla/firefox/default/user.js" = {
+      source = ./dotfiles/betterfox/user.js;
+    };
   };
 
   home.pointerCursor =
