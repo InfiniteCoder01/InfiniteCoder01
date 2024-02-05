@@ -1,16 +1,3 @@
 # InfiniteCoder01
-
-GitHub - https://github.com/InfiniteCoder01/
-Website - https://infinitecoder01.github.io/InfiniteCoder01/
-
-Twitch - https://www.twitch.tv/infinitecoder01
-YouTube - https://www.youtube.com/@InfiniteCoder01
-
-Telegram - https://t.me/InfiniteCoder01
-Discord - https://discord.gg/yHYCKtX9Mt
-
-Twitter - https://twitter.com/Dima01L/
-Instagram - https://www.instagram.com/dimaprogrammist/
-
-Patreon - https://patreon.com/InfiniteCoder376
-StreamElements - https://streamelements.com/infinitecoder01
+I'm Dima, and I love coding!
+See my [website](https://www.infinitecoder.org/) or [socials](https://www.infinitecoder.org/socials.html) for more info!
