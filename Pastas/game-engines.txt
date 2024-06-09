@@ -1,0 +1,2 @@
+This project is just a learning tool. You'll write it in every game engine and you'll end up making your own one
+That's what happend to all of us. Me (https://github.com/InfiniteCoder01/Mova), kuviman (https://geng.kuviman.com), LowLevelGameDev (https://github.com/meemknight/PikaEngine)

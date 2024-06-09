@@ -1,0 +1,1 @@
+I really liked Pop!_OS approach to tiling. I'm using Polonium on KDE, and I like it, but it's not stable yet. As a tiling WM, I liked hyprland, not others

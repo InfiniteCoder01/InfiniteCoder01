@@ -1,0 +1,5 @@
+NVim is a successor to a successor to vi, vi is an improvement over nano. Nano is better ed. But helix just works. But Emacs is doom. But you can extend VSCode to be a modal editor. Stop! Respect privacy and use VSCodium. Oh, wait, rust is better! Lapce!
+
+I use vim btw. Who needs vim, when there is emacs?! Those are all just fancy versions of ed. Just use VSCode: install extension and everything works! Where is our privacy? Use VSCodium! Rust is better! Use Lapce! Ah, I have 20TB of RAM and infinite money. I'll just buy all JetBrains IDEs for all languages I might end up using.
+
+Lunar Vim is improved NVim, NVim is improved vim, which is improved Vi, which is a better micro, which is a glorified nano, which is a usable version of ED

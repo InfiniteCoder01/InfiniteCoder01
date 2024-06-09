@@ -1,0 +1,3 @@
+[submodule "extensions/nemo-extensions"]
+	path = extensions/nemo-extensions
+	url = https://github.com/linuxmint/nemo-extensions.git

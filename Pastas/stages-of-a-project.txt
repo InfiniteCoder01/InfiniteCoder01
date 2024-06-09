@@ -1,0 +1,1 @@
+Stages of an application: dream -> idea -> plan -> draft -> compilation error -> segfault -> debuggable code -> working code -> working fast code -> good code -> presentable application (ah, this programmers art) -> revenue (Planned release date: 2030, release date: 3020)
