@@ -3,3 +3,9 @@ NVim is a successor to a successor to vi, vi is an improvement over nano. Nano i
 I use vim btw. Who needs vim, when there is emacs?! Those are all just fancy versions of ed. Just use VSCode: install extension and everything works! Where is our privacy? Use VSCodium! Rust is better! Use Lapce! Ah, I have 20TB of RAM and infinite money. I'll just buy all JetBrains IDEs for all languages I might end up using.
 
 Lunar Vim is improved NVim, NVim is improved vim, which is improved Vi, which is a better micro, which is a glorified nano, which is a usable version of ED
+
+VSCode is Microsoft's attempt at remaking Atom, VSCodium is VSCode but free, Lapce is a VSCode killer written in Rust jonker5BTW, Zed is just a better Lapce, PulsarEdit starts over being just a fork of Atom, but they all have VIM keybindings, because VIM is the best. Fancy people use NeoVim, but LunarVim is just NeoVim preconfigured. But Helix is NeoVim with meaningful default keybinds written in Rust jonker5BTW
+
+VSCode is built on top of electron. But lazy people just use github.dev. If you want it in your own website - Monaco it is. CodeMirror is simple and has run integration. And Ace is just awesome :)
+
+Emacs is a style of life. There is even a window manager (EXWM). It has everything you would need and can replace your entire system. Except that it misses a text editor.

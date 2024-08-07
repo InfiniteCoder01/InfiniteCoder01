@@ -1,0 +1,459 @@
+/nix/store/3zc5jbvqzrn8zmva4fx5p0nh4yy03wk4-ffmpeg-6.1.1-bin/bin/ffmpeg -hide_banner -y -v debug -r 24 -start_number 0 -start_number_range 1 -i /mnt/D/Channel/Github/Emotes/hi/hi%04d.png -vf palettegen=stats_mode=full:reserve_transparent=1 -y /mnt/D/Channel/Github/Emotes/hi/KritaTempPalettegen_%06d.png 
+=====================================================
+Splitting the commandline.
+Reading option '-hide_banner' ... matched as option 'hide_banner' (do not show program banner) with argument '1'.
+Reading option '-y' ... matched as option 'y' (overwrite output files) with argument '1'.
+Reading option '-v' ... matched as option 'v' (set logging level) with argument 'debug'.
+Reading option '-r' ... matched as option 'r' (set frame rate (Hz value, fraction or abbreviation)) with argument '24'.
+Reading option '-start_number' ... matched as AVOption 'start_number' with argument '0'.
+Reading option '-start_number_range' ... matched as AVOption 'start_number_range' with argument '1'.
+Reading option '-i' ... matched as output url with argument '/mnt/D/Channel/Github/Emotes/hi/hi%04d.png'.
+Reading option '-vf' ... matched as option 'vf' (set video filters) with argument 'palettegen=stats_mode=full:reserve_transparent=1'.
+Reading option '-y' ... matched as option 'y' (overwrite output files) with argument '1'.
+Reading option '/mnt/D/Channel/Github/Emotes/hi/KritaTempPalettegen_%06d.png' ... matched as output url.
+Finished splitting the commandline.
+Parsing a group of options: global .
+Applying option hide_banner (do not show program banner) with argument 1.
+Applying option y (overwrite output files) with argument 1.
+Applying option v (set logging level) with argument debug.
+Applying option y (overwrite output files) with argument 1.
+Successfully parsed a group of options.
+Parsing a group of options: input url /mnt/D/Channel/Github/Emotes/hi/hi%04d.png.
+Applying option r (set frame rate (Hz value, fraction or abbreviation)) with argument 24.
+Successfully parsed a group of options.
+Opening an input file: /mnt/D/Channel/Github/Emotes/hi/hi%04d.png.
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0000.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0001.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 24483 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0002.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 25195 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0003.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 25688 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0004.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 25794 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0005.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 25733 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0006.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 25963 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0007.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 26447 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0008.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 25847 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0009.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 26447 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0010.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 25963 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0011.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 25733 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0012.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 25794 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0013.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 25688 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0014.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 25195 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0015.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 24483 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0016.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0017.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 24205 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0018.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 24816 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0019.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 25239 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0020.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 25479 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0021.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 25387 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0022.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 25538 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0023.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 25843 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0024.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 25543 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0025.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 25982 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0026.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 25438 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0027.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 25632 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0028.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 25149 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0029.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 25440 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0030.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 25023 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0031.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 24601 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0032.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 24086 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0033.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0034.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0035.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0036.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0037.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0038.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0039.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0040.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0041.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0042.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0043.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0044.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0045.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0046.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0047.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0048.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0049.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0050.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0051.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0052.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0053.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0054.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0055.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0056.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0057.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0058.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0059.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0060.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0061.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0062.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0063.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0064.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0065.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0066.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0067.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0068.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0069.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0070.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0071.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0072.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0073.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0074.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0075.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0076.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0077.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0078.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0079.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0080.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0081.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0082.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0083.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0084.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0085.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0086.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0087.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0088.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0089.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0090.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0091.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0092.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0093.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0094.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0095.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0096.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0097.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0098.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0099.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+[image2 @ 0xb347c0] Opening '/mnt/D/Channel/Github/Emotes/hi/hi0100.png' for reading
+[file @ 0xb35d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0xb41000] Statistics: 21430 bytes read, 0 seeks
+Input #0, image2, from '/mnt/D/Channel/Github/Emotes/hi/hi%04d.png':
+  Duration: 00:00:04.04, start: 0.000000, bitrate: N/A
+  Stream #0:0, 101, 1/25: Video: png, 1 reference frame, rgba(pc, gbr/unknown/unknown), 512x512 [SAR 3937:3937 DAR 1:1], 0/1, 25 fps, 25 tbr, 25 tbn
+Successfully opened the file.
+Parsing a group of options: output url /mnt/D/Channel/Github/Emotes/hi/KritaTempPalettegen_%06d.png.
+Applying option vf (set video filters) with argument palettegen=stats_mode=full:reserve_transparent=1.
+Successfully parsed a group of options.
+Opening an output file: /mnt/D/Channel/Github/Emotes/hi/KritaTempPalettegen_%06d.png.
+[out#0/image2 @ 0xb36c80] No explicit maps, mapping streams automatically...
+[vost#0:0/png @ 0xb9ce80] Created video stream from input stream 0:0
+[AVFilterGraph @ 0xb35200] Setting 'stats_mode' to value 'full'
+[AVFilterGraph @ 0xb35200] Setting 'reserve_transparent' to value '1'
+detected 8 logical cores
+Successfully opened the file.
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> png (native))
+Press [q] to stop, [?] for help
+[AVFilterGraph @ 0xb35200] Setting 'stats_mode' to value 'full'
+[AVFilterGraph @ 0xb35200] Setting 'reserve_transparent' to value '1'
+[graph 0 input from stream 0:0 @ 0xc6d5c0] Setting 'video_size' to value '512x512'
+[graph 0 input from stream 0:0 @ 0xc6d5c0] Setting 'pix_fmt' to value '26'
+[graph 0 input from stream 0:0 @ 0xc6d5c0] Setting 'time_base' to value '1/24'
+[graph 0 input from stream 0:0 @ 0xc6d5c0] Setting 'pixel_aspect' to value '3937/3937'
+[graph 0 input from stream 0:0 @ 0xc6d5c0] Setting 'frame_rate' to value '24/1'
+[graph 0 input from stream 0:0 @ 0xc6d5c0] w:512 h:512 pixfmt:rgba tb:1/24 fr:24/1 sar:3937/3937
+[format @ 0xc6dbc0] Setting 'pix_fmts' to value 'rgb24|rgba|rgb48be|rgba64be|pal8|gray|ya8|gray16be|ya16be|monob'
+[auto_scale_0 @ 0xc6eac0] w:iw h:ih flags:'' interl:0
+[Parsed_palettegen_0 @ 0xc6d3c0] auto-inserting filter 'auto_scale_0' between the filter 'graph 0 input from stream 0:0' and the filter 'Parsed_palettegen_0'
+[auto_scale_1 @ 0xc7a480] w:iw h:ih flags:'' interl:0
+[format @ 0xc6dbc0] auto-inserting filter 'auto_scale_1' between the filter 'Parsed_palettegen_0' and the filter 'format'
+[AVFilterGraph @ 0xb35200] query_formats: 4 queried, 1 merged, 2 already done, 0 delayed
+[auto_scale_1 @ 0xc7a480] picking rgba out of 10 ref:bgra alpha:1
+[swscaler @ 0xe92cc0] [swscaler @ 0xe9fc80] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0xe92cc0] [swscaler @ 0xeacc40] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0xe92cc0] [swscaler @ 0xebfc40] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0xe92cc0] [swscaler @ 0xed2c40] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0xe92cc0] [swscaler @ 0xee5c40] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0xe92cc0] [swscaler @ 0xef8c40] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0xe92cc0] [swscaler @ 0xf0bc40] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0xe92cc0] [swscaler @ 0xf1ec40] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0xe92cc0] [swscaler @ 0xf31c40] Forcing full internal H chroma due to input having non subsampled chroma
+[auto_scale_0 @ 0xc6eac0] w:512 h:512 fmt:rgba sar:3937/3937 -> w:512 h:512 fmt:bgra sar:1/1 flags:0x00000004
+[swscaler @ 0xf44c40] [swscaler @ 0xf51c00] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0xf44c40] [swscaler @ 0xf64c00] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0xf44c40] [swscaler @ 0xf77c00] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0xf44c40] [swscaler @ 0xf8ac00] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0xf44c40] [swscaler @ 0xf9dc00] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0xf44c40] [swscaler @ 0xfb0c00] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0xf44c40] [swscaler @ 0xfc3c00] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0xf44c40] [swscaler @ 0xfd6c00] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0xf44c40] [swscaler @ 0xfe9c00] Forcing full internal H chroma due to input having non subsampled chroma
+[auto_scale_1 @ 0xc7a480] w:16 h:16 fmt:bgra sar:1/1 -> w:16 h:16 fmt:rgba sar:1/1 flags:0x00000004
+[swscaler @ 0xe92cc0] [swscaler @ 0xe9fc80] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0xe92cc0] [swscaler @ 0xeacc40] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0xe92cc0] [swscaler @ 0xebfc40] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0xe92cc0] [swscaler @ 0xed2c40] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0xe92cc0] [swscaler @ 0xee5c40] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0xe92cc0] [swscaler @ 0xef8c40] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0xe92cc0] [swscaler @ 0xf0bc40] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0xe92cc0] [swscaler @ 0xf1ec40] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0xe92cc0] [swscaler @ 0xf31c40] Forcing full internal H chroma due to input having non subsampled chroma
+[auto_scale_0 @ 0xc6eac0] w:512 h:512 fmt:rgba sar:3937/3937 -> w:512 h:512 fmt:bgra sar:1/1 flags:0x00000004
+[swscaler @ 0xe92cc0] [swscaler @ 0xe9fc80] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0xe92cc0] [swscaler @ 0xeacc40] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0xe92cc0] [swscaler @ 0xebfc40] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0xe92cc0] [swscaler @ 0xed2c40] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0xe92cc0] [swscaler @ 0xee5c40] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0xe92cc0] [swscaler @ 0xef8c40] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0xe92cc0] [swscaler @ 0xf0bc40] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0xe92cc0] [swscaler @ 0xf1ec40] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0xe92cc0] [swscaler @ 0xf31c40] Forcing full internal H chroma due to input having non subsampled chroma
+[auto_scale_0 @ 0xc6eac0] w:512 h:512 fmt:rgba sar:3937/3937 -> w:512 h:512 fmt:bgra sar:1/1 flags:0x00000004
+[swscaler @ 0xe92cc0] [swscaler @ 0xe9fc80] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0xe92cc0] [swscaler @ 0xeacc40] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0xe92cc0] [swscaler @ 0xebfc40] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0xe92cc0] [swscaler @ 0xed2c40] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0xe92cc0] [swscaler @ 0xee5c40] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0xe92cc0] [swscaler @ 0xef8c40] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0xe92cc0] [swscaler @ 0xf0bc40] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0xe92cc0] [swscaler @ 0xf1ec40] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0xe92cc0] [swscaler @ 0xf31c40] Forcing full internal H chroma due to input having non subsampled chroma
+[auto_scale_0 @ 0xc6eac0] w:512 h:512 fmt:rgba sar:3937/3937 -> w:512 h:512 fmt:bgra sar:1/1 flags:0x00000004
+[in#0/image2 @ 0xb346c0] EOF while reading input
+[in#0/image2 @ 0xb346c0] Terminating demuxer thread
+[vist#0:0/png @ 0xb35bc0] Decoder thread received EOF packet
+[vist#0:0/png @ 0xb35bc0] Decoder returned EOF, finishing
+[vist#0:0/png @ 0xb35bc0] Terminating decoder thread
+[Parsed_palettegen_0 @ 0xc6d3c0] 255(+1) colors generated out of 22946 colors; ratio=0.011113
+[Parsed_palettegen_0 @ 0xc6d3c0] Duped color: FF760089
+[Parsed_palettegen_0 @ 0xc6d3c0] Duped color: FFA90056
+[Parsed_palettegen_0 @ 0xc6d3c0] Duped color: FFB3004C
+Output #0, image2, to '/mnt/D/Channel/Github/Emotes/hi/KritaTempPalettegen_%06d.png':
+  Metadata:
+    encoder         : Lavf60.16.100
+  Stream #0:0, 0, 1/24: Video: png, 1 reference frame, rgba(pc, gbr/unknown/unknown, progressive), 16x16 (0x0) [SAR 1:1 DAR 1:1], 0/1, q=2-31, 200 kb/s, 24 fps, 24 tbn
+    Metadata:
+      encoder         : Lavc60.31.102 png
+frame=    0 fps=0.0 q=0.0 size=       0kB time=N/A bitrate=N/A speed=N/A    [out_0_0 @ 0xc6da40] EOF on sink link out_0_0:default.
+No more output streams to write to, finishing.
+[image2 @ 0xb9c840] Opening '/mnt/D/Channel/Github/Emotes/hi/KritaTempPalettegen_000001.png' for writing
+[file @ 0x7f79580020c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f7958001880] Statistics: 816 bytes written, 0 seeks, 1 writeouts
+[out#0/image2 @ 0xb36c80] All streams finished
+[out#0/image2 @ 0xb36c80] Terminating muxer thread
+[out#0/image2 @ 0xb36c80] Output file #0 (/mnt/D/Channel/Github/Emotes/hi/KritaTempPalettegen_%06d.png):
+[out#0/image2 @ 0xb36c80]   Output stream #0:0 (video): 1 frames encoded; 1 packets muxed (816 bytes); 
+[out#0/image2 @ 0xb36c80]   Total: 1 packets (816 bytes) muxed
+[out#0/image2 @ 0xb36c80] video:1kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+frame=    1 fps=0.0 q=-0.0 Lsize=N/A time=00:00:00.00 bitrate=N/A speed=   0x    
+[in#0/image2 @ 0xb346c0] Input file #0 (/mnt/D/Channel/Github/Emotes/hi/hi%04d.png):
+[in#0/image2 @ 0xb346c0]   Input stream #0:0 (video): 101 packets read (2287954 bytes); 101 frames decoded; 0 decode errors; 
+[in#0/image2 @ 0xb346c0]   Total: 101 packets (2287954 bytes) demuxed
+Input #0, image2, from '/mnt/D/Channel/Github/Emotes/hi/hi%04d.png':
+  Duration: 00:00:04.04, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: png, rgba(pc, gbr/unknown/unknown), 512x512 [SAR 3937:3937 DAR 1:1], 25 fps, 25 tbr, 25 tbn
+Input #1, image2, from '/mnt/D/Channel/Github/Emotes/hi/KritaTempPalettegen_%06d.png':
+  Duration: 00:00:00.04, start: 0.000000, bitrate: N/A
+  Stream #1:0: Video: png, rgba(pc, gbr/unknown/unknown), 16x16 [SAR 1:1 DAR 1:1], 25 fps, 25 tbr, 25 tbn
+Stream mapping:
+  Stream #0:0 (png) -> paletteuse
+  Stream #1:0 (png) -> paletteuse
+  paletteuse:default -> Stream #0:0 (gif)
+Press [q] to stop, [?] for help
+[in#0/image2 @ 0x1cdb340] Thread message queue blocking; consider raising the thread_queue_size option (current value: 8)
+Output #0, gif, to '/mnt/D/Channel/Github/Emotes/hi/hi.gif':
+  Metadata:
+    encoder         : Lavf60.16.100
+  Stream #0:0: Video: gif, pal8(pc, gbr/unknown/unknown, progressive), 512x512 [SAR 1:1 DAR 1:1], q=2-31, 200 kb/s, 24 fps, 100 tbn
+    Metadata:
+      encoder         : Lavc60.31.102 gif
+frame=    0 fps=0.0 q=-0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    frame=   21 fps=0.0 q=-0.0 size=     193kB time=00:00:00.83 bitrate=1892.7kbits/s speed= 1.4x    frame=   45 fps= 41 q=-0.0 size=     256kB time=00:00:01.87 bitrate=1118.5kbits/s speed= 1.7x    frame=   72 fps= 45 q=-0.0 size=     512kB time=00:00:03.00 bitrate=1398.1kbits/s speed=1.87x    frame=  100 fps= 47 q=-0.0 size=     768kB time=00:00:04.16 bitrate=1509.9kbits/s speed=1.97x    [out#0/gif @ 0x1e7f880] video:980kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.001994%
+frame=  101 fps= 48 q=-0.0 Lsize=     980kB time=00:00:04.16 bitrate=1926.3kbits/s speed=1.97x    

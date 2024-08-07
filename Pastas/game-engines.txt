@@ -1,2 +1,16 @@
-This project is just a learning tool. You'll write it in every game engine and you'll end up making your own one
-That's what happend to all of us. Me (https://github.com/InfiniteCoder01/Mova), kuviman (https://geng.kuviman.com), LowLevelGameDev (https://github.com/meemknight/PikaEngine)
+This project is just a learning tool. You'll write it in every game engine and you'll end up making your own one.
+That's what happend to all of us. Me (https://github.com/InfiniteCoder01/Mova), kuviman (https://geng.kuviman.com), LowLevelGameDev (https://github.com/meemknight/PikaEngine)...
+
+I started my gamedev journey with Unity. But then I said: "It's too heavy and bloated", and all my subsequent games used Java/C++. At the middle of 2023 I've learned about Rust jonker5BTW, which has a game engine called "Bevy". But I didn't like it's ECS approach. And later I've tried Godot. It is an awesome extensible engine, it could improve my productivity A LOT by providing stuff like easy timers, animations, etc. but to this day I can't make a game with something that will leave a whole interpreter in the final executable. Maybe one big library with code generation is the way...
+
+```
+I liked the experience with Godot, considering that before I have never made a game with a game engine, mostly used raylib.
+- It is pretty easy to create a 2D game with Godot, but in this game I wanted to try implementing custom collision resolution, which was pretty rough (but I think it's possible, Godot gives you all you need with `move_and_collide(motion, false)`, but I couldn't get `get_depth` to work properly).
+- TileMap in Godot is dynamically scaleable, has multiple layers and just flexible in general. It is replaced in 4.3 with TileMapLayer, but I couldn't get it to work with BetterTerrain (an addon, that is absolutely necessary, because autotiling rules in Godot out of the box are a nightmare to setup). - Speaking of addons, they are very easy to install, and a lot of them are available in the builtin browser. Everything is free and opensource. Another useful addon is GodotAsepriteWizard, a beautiful Aseprite importer.
+- GUIs are pretty easy with Godot, and there are A LOT of GUI nodes, everything you would want out of the box (the reason being, Godot itself is written using Godot)
+- GDScript is simple, similar to python. There's a guide on the official wiki, there are some type hints (but they are still rough).
+There are ways to use C# with Godot, but from version 4, it doesn't work in web builds. And I couldn't run Godot with C# support on NixOS.
+- The pipes in this game are rendered with shaders, which are written in GDShader language. I see almost no differences from GLSL used in OpenGL ES (OpenGL 2 or something). Godot itself is using Vulcan. Shaders are pretty simple, they even work in the editor
+
+With all that said, I still can't believe that every game shipped with Godot contains a GDScript interpreter in it. I am just used to compiled languages.
+```
