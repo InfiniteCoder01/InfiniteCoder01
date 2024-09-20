@@ -14,3 +14,5 @@ There are ways to use C# with Godot, but from version 4, it doesn't work in web 
 
 With all that said, I still can't believe that every game shipped with Godot contains a GDScript interpreter in it. I am just used to compiled languages.
 ```
+
+ I like Godot, but I don't like: 1) GDScript - interpreted with weak type hints. IS NOT COMPILED. Virtual file system is also a thing 2) I can't make my own loading screen (I mean...) 3) Yeah... Event loop control is taken away from me... That's not really a big deal, especially in Godot
