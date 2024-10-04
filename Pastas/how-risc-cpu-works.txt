@@ -1,0 +1,5 @@
+Just note: RISC processors are different in this way:
+Instead of having microcode, they do stuff in three steps:
+When clock line goes from low to high, they fetch an instruction (including all it's data) - this being just reading 32 bits (or whatever is the instruction size, note: it will always be constant) from RAM to a register.
+When the line goes from high to low, they do the computation. By that I mean they write the result into a register or write an address into RAM address register to read from ram if it's a load instruction. This time (from clock line going low to hight to it  going back to low) is given to get stable. Electricity flows from instruction register into and through the decoder and into different parts, allowing data from registers to ALU and for ALU to compute result.
+Then, third step may happen at the same time as loading step (when clock goes from low to high) - writing whatever was the result (stored by the previous step) to wherever it was supposed to be. That's about how I remember it, but this makes a conflict of reading from and writing to memory at the same time. But it works about like that
