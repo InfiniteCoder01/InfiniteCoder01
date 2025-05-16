@@ -1,1 +1,3 @@
 If you don't care, that apt is used in every online tutorial, you can start with Fedora or Endeavour OS. Otherwise, use Pop!_OS or Ubuntu. I would recomend KDE as a desktop environment, especially if you came from windows. Gnome is not bad, but...
+
+As long as you can keep your linux system bootable after you do pacman -Syyuu, you can say "I use jonker5Arch jonker5BTW"
