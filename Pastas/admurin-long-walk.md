@@ -83,4 +83,5 @@ InfiniteCoder01: As you rush towards the other side, One of the bridge supports 
 <details>
     <summary>SPOILERS for the next time</summary>
     It looks flimsy and dilapidated, but Infinite steps on it bravely. It creaks, but holds. You follow, and soon you make it to the middle.
+    REMEMBER: Norway map, where we are going, the bear, flowers
 </details>
