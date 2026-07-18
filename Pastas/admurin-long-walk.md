@@ -80,6 +80,27 @@ InfiniteCoder01: You hear a click and a splash - a rock must have come loose fro
 
 InfiniteCoder01: As you rush towards the other side, One of the bridge supports collapses. "Ooh!" you say, trying to catch your breath. "Everyone made it to the other side?" - Infinite asks. You look around, all pengus seem in-tact. The bear disturbed by the noise comes your way.
 
+**a few more days**
+
+admurin: admurin is now live! Streaming Software and Game Development: more high tech and also some penguin tech !wq \
+InfiniteCoder01 redeemed First in Line \
+admurin: You have been the penguin leader 8 times InfiniteCoder01! You get 10000 gold for your services!
+
+s_lethe redeemed Join the Line \
+AdmurinBot: You join the line led by InfiniteCoder01 and become the 2nd in line. You get 7500 gold for your services! Where will InfiniteCoder01 take the line?!
+
+InfiniteCoder01: "Hello, waddlers." - the bear growls - "You disturbed the Tonitrualis forest by stepping on this bridge, there is no way back... Now your only way is to follow the path of broken branches. Nobody has made it this far in years." \
+InfiniteCoder01: "Good luck and take this rock, you will need it" - The brown creature handed you a cobble, which had many sharp corners and symbols scratched on it.
+
+Virtual_Agent? redeemed Join the Line \
+AdmurinBot: You join the line led by InfiniteCoder01 and become the 3rd in line. You get 5000 gold for your services! Where will InfiniteCoder01 take the line?!
+
+InfiniteCoder01: With the newly acquired treasure you follow Bear's advice. Walking along the trees, some of which were uprooted from the ground, you start to wonder: What could've happened here? Either way, you are approaching a... mountain? Cliff? Right in the middle of the forest. You face the stone wall, you see more weird symbols drawn on it. \
+InfiniteCoder01: Infinite takes the rock and starts scratching with it. It seems random, but then you realize that he has drawn a circle connecting the glyphs. Suddenly, you feel a tremor, almost loosing the balance: the cliff started moving. A few seconds and you see a cave, a path forward. *Howl.* A gray creature is rushing towards you out of the cave, more of them follow behind.
+
+Asdoni redeemed Join the Line \
+AdmurinBot: You join the line led by InfiniteCoder01 and become the 4th in line. You get 2500 gold for your services! Where will InfiniteCoder01 take the line?!
+
 <details>
     <summary>SPOILERS for the next time</summary>
     It looks flimsy and dilapidated, but Infinite steps on it bravely. It creaks, but holds. You follow, and soon you make it to the middle.
