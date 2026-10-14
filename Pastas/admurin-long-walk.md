@@ -101,8 +101,48 @@ InfiniteCoder01: Infinite takes the rock and starts scratching with it. It seems
 Asdoni redeemed Join the Line \
 AdmurinBot: You join the line led by InfiniteCoder01 and become the 4th in line. You get 2500 gold for your services! Where will InfiniteCoder01 take the line?!
 
+**one last timeskip**
+
+InfiniteCoder01 redeemed First in Line \
+admurin: You have been the penguin leader 9 times InfiniteCoder01! You get 10000 gold for your services!
+
+Faltbootsardine redeemed Join the Line \
+AdmurinBot: You join the line led by InfiniteCoder01 and become the 2nd in line. You get 7500 gold for your services! Where will InfiniteCoder01 take the line?!
+
+s_lethe redeemed Join the Line \
+AdmurinBot: You join the line led by InfiniteCoder01 and become the 3rd in line. You get 5000 gold for your services! Where will InfiniteCoder01 take the line?!
+
+InfiniteCoder01: Terrified of what appears to be a whole heard of wolves, the penguins scattered in all directions! But Faltbootsardine and s_lethe did not even blink, ready to jump into action. \
+InfiniteCoder01: With the last wolf running for his life, the line could assemble again and continue their jorney underground. "Actually, we're not underground, we're just inside of a mountain" - Infinite says as you walk past hanging lanterns and minecarts, ores and chests, stalactites and stalagmites. "Wanna go for a ride?" - the leader asks.
+
+admurin redeemed Join the Line \
+AdmurinBot: You join the line led by InfiniteCoder01 and become the 4th in line. You get 2500 gold for your services! Where will InfiniteCoder01 take the line?!
+
+Virtual_Agent redeemed Join the Line \
+AdmurinBot: You join the line led by InfiniteCoder01 and become the 5th in line. You get 2500 gold for your services! Where will InfiniteCoder01 take the line?!
+
+InfiniteCoder01: As penguins got in the minecarts, two penguins in each, infinite pulled the lever. Screeching got louder as you started moving, gaining speed. "I've never ridden a minecart before!" - exlaims admurin - "This is so fun!" *bonk* - the minecarts go in the air for a split second, before lading back on rails after a small ramp. \
+InfiniteCoder01: The track starts slowly going downhill, and with that minecarts start accelerating. Chugging gets louder and you can feel the minecarts shaking. "Forgot to mention, track ends soon, right on a cliff. Prepare for a ju-" **BOOM**
+
+InfiniteCoder01: You are flying... What an interesting feeling? Minecarts forming an arc over a giant cliff... Flowing lava is illuminating this spectacle. You wish this moment could last a little more, but... **Shebang.** You land back on tracks. At an incredible speed, the minecarts rush up the hill, before slowly coming to a stop near a station. "Everyone made it?" - Infinite asks as you notice, how line became one minecart shorter and admurin with Virtual_Agent went missing.
+
+ra_m3n3040 redeemed Join the Line \
+admurin: You join the line led by InfiniteCoder01 and become the 6th in line. You get 2500 gold for your services! Where will InfiniteCoder01 take the line?!
+
+commandwharf4 redeemed Join the Line \
+admurin: You join the line led by InfiniteCoder01 and become the 7th in line. You get 2500 gold for your services! Where will InfiniteCoder01 take the line?!
+
+InfiniteCoder01: "I... I sure hope they are ok..." - Infinite says. - "I never went that far before, should've mentioned it in advance... But we must continue forward, or else we are going to get in trouble." \
+InfiniteCoder01: Meanwhile, Virtual_Agent gets out of the cart, admurin follows. "I knew somebody wouldn't make it past the jump, glad I laid rails down here to catch you!" - that clicking voice is coming from... A pile of rocks?! I mean it is somewhat shaped like a human, but it's made of rocks... "I'm Rocky, by the way. Sorry for the wall at the end, didn't have time to extend the track far enough so you could use breaks." - the newfound friend says.
+
+**timeskip**
+*(Too lazy to keep all the first messages.)*
+
+InfiniteCoder01: As you keep crawling forward, you hear a growl. "Is that what you meant by trouble?" - xyzgamerwastaken asks, trembling. "Yeah..." - Infinite stretches. - "There are creatures scarier than wolves in this cave. But that might have just been the wind." \
+InfiniteCoder01: You crawl out of the cave. A little wooden frame supports the entrance through which you exited. Sun is beginning to descend, but the rays are still bright. They light up the clearing in the middle of the forest, which still surrounds you. "We need to go further." - Infinite insists. - "We can't go back in the cave, but there are creatues who take care of lost travelers." - he said that before you even got a chance to complain. \
+InfiniteCoder01: Magestic trees surround you again, but as you go further they become rarer, but more and more often you see giant boulders scattered around. You start to notice the incline. Soon the forest ends, and you find yourself hiking along the side of the mountain. Soon, the road ends and you see a bridge. It looks flimsy and dilapidated, but Infinite steps on it bravely. It creaks, but holds. You follow, and soon you make it to the middle.
+
 <details>
     <summary>SPOILERS for the next time</summary>
-    It looks flimsy and dilapidated, but Infinite steps on it bravely. It creaks, but holds. You follow, and soon you make it to the middle.
-    REMEMBER: Norway map, where we are going, the bear, flowers
+    REMEMBER: Norway map, where we are going (brr), the bear, flowers
 </details>
